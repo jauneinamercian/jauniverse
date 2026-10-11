@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="JAUNIVERSE — a dreamy personal blog with a soft night-sky aesthetic."
+    />
+    <title>JAUNIVERSE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sky-glow sky-glow-one"></div>
+    <div class="sky-glow sky-glow-two"></div>
+    <div class="stars"></div>
+
+    <header class="topbar">
+      <div class="brand-wrap">
+        <span class="brand-mark">✦</span>
+        <span class="brand-name">JAUNIVERSE</span>
+      </div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#home">home</a>
+        <a href="#journal">journal</a>
+        <a href="#about">about</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">a tiny orbit of thoughts</p>
+          <h1>dreams in moonlit blue.</h1>
+          <p class="subtitle">
+            A soft little corner for writing, collecting feelings, and making room for the magic in everyday life.
+          </p>
+          <div class="hero-actions">
+            <a href="#journal" class="primary-btn">read the journal</a>
+            <a href="#about" class="ghost-btn">about me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Decorative stars and moon scene">
+          <div class="moon"></div>
+          <div class="cloud cloud-left"></div>
+          <div class="cloud cloud-right"></div>
+        </div>
+      </section>
+
+      <section class="music-section" aria-label="Music player">
+        <div class="music-card">
+          <div class="music-info">
+            <span class="music-tag">now playing</span>
+            <h2>Enchanted</h2>
+            <p>pure instrumental dream version</p>
+          </div>
+          <div class="player-shell">
+            <iframe
+              src="https://www.youtube.com/embed/uyupd2PXbSQ?autoplay=1&mute=1&loop=1&playlist=uyupd2PXbSQ&controls=1&rel=0"
+              title="Enchanted instrumental"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="journal" class="journal-section">
+        <div class="section-heading">
+          <p class="eyebrow">latest notes</p>
+          <h2>the journal</h2>
+        </div>
+
+        <div class="posts-grid">
+          <article class="post-card tall">
+            <span class="post-date">10 Oct 2026</span>
+            <h3>soft mornings & silver thoughts</h3>
+            <p>
+              The best days begin quietly: a window open, a slow cup of tea, and a little more room to notice the small things.
+            </p>
+            <a href="#" aria-label="Read soft mornings and silver thoughts">read more →</a>
+          </article>
+
+          <article class="post-card">
+            <span class="post-date">09 Oct 2026</span>
+            <h3>star maps and tiny plans</h3>
+            <p>
+              I keep collecting dreams like constellations — not because they are grand, but because they glow.
+            </p>
+            <a href="#" aria-label="Read star maps and tiny plans">read more →</a>
+          </article>
+
+          <article class="post-card accent">
+            <span class="post-date">08 Oct 2026</span>
+            <h3>the colour of silence</h3>
+            <p>
+              Some of the gentlest moments pass by without a title, and still, they change everything.
+            </p>
+            <a href="#" aria-label="Read the colour of silence">read more →</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="section-heading">
+          <p class="eyebrow">about</p>
+          <h2>hello, I’m Jaune</h2>
+        </div>
+
+        <div class="about-panel">
+          <div class="about-copy">
+            <p>
+              I write about feelings, little adventures, and the in-between moments that feel too soft to ignore.
+            </p>
+            <p>
+              This space is for collecting tiny wonders, personal notes, and a bit of wonder in the middle of everyday life.
+            </p>
+          </div>
+          <div class="mini-badges" aria-label="personal tags">
+            <span>writer</span>
+            <span>dreamer</span>
+            <span>night skies</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="stickers" aria-hidden="true">
+      <div class="sticker sticker-left">
+        <svg viewBox="0 0 150 150" role="img" aria-label="wooden little plant sticker">
+          <g>
+            <path d="M75 20c22 0 42 22 42 48 0 31-26 60-42 60s-42-29-42-60C33 42 53 20 75 20Z" fill="#f4d3a3" opacity="0.45"/>
+            <path d="M71 28c-5 19-13 35-28 43 18 6 29 23 31 50 13-10 21-27 21-50 0-16-7-31-24-43Z" fill="#7fb8a8"/>
+            <path d="M79 27c4 19 13 35 29 43-19 6-30 23-32 50-14-10-21-27-21-50 0-15 8-30 24-43Z" fill="#8ec7b8"/>
+            <rect x="71" y="76" width="9" height="46" rx="4" fill="#7b4d2f"/>
+            <circle cx="75" cy="47" r="8" fill="#f4f0ff" opacity="0.9"/>
+          </g>
+        </svg>
+      </div>
+
+      <div class="sticker sticker-right">
+        <svg viewBox="0 0 150 150" role="img" aria-label="woody heart sticker">
+          <g>
+            <path d="M75 112c-17-14-44-31-44-58 0-15 12-27 27-27 11 0 19 6 24 15 5-9 13-15 24-15 15 0 27 12 27 27 0 27-27 44-44 58Z" fill="#c6d9ff" stroke="#7aa5d5" stroke-width="3"/>
+            <path d="M62 63c-5 0-10 3-10 11 0 10 9 17 18 26 5-6 9-11 15-18 5-7 7-13 7-18 0-7-4-10-10-10-5 0-9 4-12 9-3-5-7-9-8-9Z" fill="#f5d7e8" opacity="0.9"/>
+            <path d="M91 62c5 0 10 3 10 11 0 10-9 17-18 26-5-6-9-11-15-18-5-7-7-13-7-18 0-7 4-10 10-10 5 0 9 4 12 9 3-5 7-9 8-9Z" fill="#fce7d0" opacity="0.85"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> JAUNIVERSE</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
